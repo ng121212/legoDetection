@@ -14,6 +14,8 @@ https://drive.google.com/file/d/10CF8gRKXVGIlZXO1pY3kiOyPIQ2iQoNZ/view?usp=shari
 <br/>
 After updating the checkpoints directory, you can run findLegos.py to locate and drive towards Legos
 <br/>
+Note you may be prompted to install some missing dependencies
+<br/>
 <br/>
 <br/>
 If only intending to run detection code on previously obtained images (no arduino/webcam dependency), follow the additional steps:
