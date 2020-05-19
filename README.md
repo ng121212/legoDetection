@@ -20,7 +20,13 @@ If only intending to run detection code on previously obtained images (no arduin
 <br/>
 <code>$ mkdir output</code>
 <br/>
-<code>$ mkdir -p data/samples</code>
+<code>$ cd data</code>
+<br/>
+<code>$ mkdir samples</code>
 <br/>
 <br/>
-In the samples sub-directory, upload all of the images you would like to run the detection on, and then return to the root directory and run detect.py
+In the samples sub-directory, upload all of the images you would like to run the detection on, and then return to the root directory and run detect.py using the following command
+<br/>
+<code>$ python3 detect.py \--image_folder data/samples/ \--class_path data/custom/classes.names \--model_def config/yolov3-custom.cfg \--weights_path checkpoints/yolov3_ckpt_final.pth
+</code>
+
