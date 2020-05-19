@@ -88,7 +88,7 @@ def send_serial_command(serialPort, direction_enum):
 
 os.mkdir("output")
 os.mkdir("runImages")
-os.makedirs("data/samples")
+os.mkdir("data/samples")
         
 # Variables to hold last command sent to Arudino and when it was sent (epoch seconds)
 lastCommandSentViaSerial = None
