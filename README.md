@@ -1,7 +1,7 @@
 # Lego Detection
 <br/>
 <br/>
-This code is for detecting Legos on the Jetson TX2 using YOLOv3 as implemented here (https://github.com/eriklindernoren/PyTorch-YOLOv3).
+This repo is for detecting Legos on the Jetson TX2 using YOLOv3 as implemented here (https://github.com/eriklindernoren/PyTorch-YOLOv3).
 <br/>
 <br/>
 detect.py is simply the detection algorithm, whereas findLegos.py reads in live images from a webcam and sends commands to an arduino to drive the motors towards the legos identified
