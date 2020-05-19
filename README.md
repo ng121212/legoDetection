@@ -13,6 +13,7 @@ https://drive.google.com/file/d/10CF8gRKXVGIlZXO1pY3kiOyPIQ2iQoNZ/view?usp=shari
 <br/>
 <br/>
 Optional: Download pre-trained weights if you intend to train
+<br/>
 <code>$ cd ../weights</code>
 <br/>
 <code>$ bash download_weights.sh</code>
