@@ -1,4 +1,4 @@
-# legoDetection
+# Lego Detection
 
 Create the checkpoints directory
 <br/>
