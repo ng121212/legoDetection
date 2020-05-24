@@ -244,14 +244,15 @@ while count<200:
             if currentRoamInstr < 3:
                 send_serial_command(serialPort, Direction.RIGHT)
                 prevDirection = Direction.RIGHT
-            elif currentRoamInstr < 6:
+            elif currentRoamInstr < 9:
                 send_serial_command(serialPort, Direction.LEFT)
                 prevDirection = Direction.LEFT
-            elif currentRoamInstr < 12:
+            elif currentRoamInstr < 15:
                 send_serial_command(serialPort, Direction.FORWARD)
                 prevDirection = Direction.FORWARD         
             currentRoamInstr = (currentRoamInstr+1)%12
         else:
+            currentRoamInstr = 0
             log.write("found lego in frame ")
             print("found lego in frame ")
     else:
